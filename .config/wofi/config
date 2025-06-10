@@ -1,0 +1,19 @@
+[general]
+# Set the font and font size for Wofi
+font="Fira Sans 14"
+
+# Set the theme for Wofi
+theme="dark"
+
+# Set the position of Wofi (e.g., top, center, bottom)
+position="center"
+
+# Set the mode (either dmenu-like or rofi-like)
+mode="dmenu"
+
+[appearance]
+# Set colors for the foreground, background, etc.
+background="#2e2e2e"
+foreground="#ffffff"
+highlight="#ff9900"
+
