@@ -1,19 +1,31 @@
 # Dotfiles
 
-This repository contains my personal dotfiles and configuration files for my Linux setup.
+My personal dotfiles for a minimalist, fast, and keyboard-driven Linux setup.
 
-## What’s included
+These configuration files are tailored for a Wayland-based system using **Hyprland**, with lightweight tools like **Waybar**, **Wofi**, and terminal-based utilities such as **Kitty**, **Neofetch**, and **htop**.
 
-- Shell configuration (`.bashrc`, `.zshrc`, or your shell files)
-- Editor configs (e.g., `.vimrc`, `.config/nvim/init.vim`)
-- Window manager or desktop environment settings
-- Keybindings and other OS config files
-- Any other personalized scripts or settings
+---
 
-## How to use
+## 📁 Included Configurations
 
-1. **Clone the repository:**
+| Tool/Component           | Description                                 |
+|--------------------------|---------------------------------------------|
+| `hypr`                   | Hyprland window manager configuration       |
+| `waybar`                 | Status bar customization                    |
+| `wofi`                   | Application launcher theme/config           |
+| `kitty`                  | Terminal emulator settings                  |
+| `neofetch`               | System info display on terminal launch      |
+| `htop`                   | Terminal process monitor color/theme config |
+| `menus/applications-merged` | Custom application menu definitions     |
 
-   ```bash
-   git clone git@github.com:lazyGoliath/dotfiles.git
-   cd dotfiles
+---
+
+## 🛠️ Installation
+
+> ⚠️ These configs are tailored for **Wayland + Hyprland** on a Linux system. Proceed carefully and back up your current config files.
+
+### 1. Clone the repository
+
+```bash
+git clone git@github.com:lazyGoliath/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
